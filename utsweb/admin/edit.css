@@ -1,0 +1,136 @@
+*{
+    margin: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'lora', serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+}
+
+ header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+    max-height: max-content;
+    min-height: 1em;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.logo-section{
+
+    color: aqua;
+    width: 10%;
+    margin-top:5px;
+    margin-left: 20px;
+}
+
+.logo-sec{
+    margin-left: 0.8em;
+    max-width: 35%;
+    max-height: 100%;
+}
+
+.navigation-bar{
+    width: 70%;
+    flex-grow: 2%;
+    margin-inline: initial;
+}
+
+:root{
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+.light-theme{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+header a,
+footer a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-link:hover {
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+}
+
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+
+}
+
+
+
+#aboutme{
+    text-align: center;
+    padding-top: 0;
+}
+section p.ringkasan {
+    font-style: italic;
+    font-size: 18px;
+    color: #ababab;     
+}
+section .konten-isi p {
+    font-style: normal;
+}
+nav.putih {
+    background-color: var(--primary-color);
+}
+nav.putih .tombol-menu .garis {
+    background-color: var(--secondary-color);
+}
+nav.putih ul li a {
+    color: var(--secondary-color);
+}
+section.abuabu {
+    background-color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
